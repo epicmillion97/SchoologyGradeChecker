@@ -1,0 +1,2 @@
+# SchoologyGradeChecker
+Schoology Grade Scraper
