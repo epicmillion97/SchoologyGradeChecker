@@ -9,15 +9,16 @@ Python Schoology Script to retrieve student grades.
 - Selenium
 - Pandas
 - Numpy
+- webdrivermanager
 
-#Setup
+# Setup
 - Download Schoologygrades.py
 - Run in terminal with arguments of **username** and **password**
 - Then let it run for 10 seconds
 - Output of schoologygrades.csv file
 
 
-#Debugging
+# Debugging
 - Finishes but no data in the csv
   Caused by dataParentP1 not being set correctly for the semester
   
