@@ -19,6 +19,7 @@ pip install -r requirements.txt
 
 
 # Running
+Change schoology url for your district
 
 ## Using terminal
 - Run in terminal with arguments of **username** and **password**
