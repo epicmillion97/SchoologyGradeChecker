@@ -37,3 +37,8 @@ df = pd.read_csv('./schoologygrades.csv')
 - Finishes but no data in the csv
   Caused by dataParentP1 not being set correctly for the semester
   
+# Changes Needed
+- Other Schoology logins
+- Auto ParentId gathering
+- ~~ Support needed for submitted work span class grade-wrapper with drop~~
+
