@@ -191,7 +191,7 @@ def tocsv():
 grades = []
 
 def main(username, password):
-    dataParentP1 = "9000901" # if dataParentId error CHECK THIS LINE AND REFER TO GITHUB DOCUMENTATION
+    dataParentP1 = "900090" # if dataParentId error CHECK THIS LINE AND REFER TO GITHUB DOCUMENTATION
     html_list = selenium_get_source(username, password)
     for source in html_list:
         try:
