@@ -19,6 +19,8 @@ import numpy as np
 from webdriver_manager.chrome import ChromeDriverManager
 #Currently Supports Chrome
 
+schoolurl = 'https://***school***.schoology.com' # edit school to your district
+
 
 def selenium_get_source(usernamekey, passwordkey):
     chrome_options = webdriver.chrome.options.Options()
@@ -33,7 +35,7 @@ def selenium_get_source(usernamekey, passwordkey):
 
     #firstarg=sys.argv[1]
     #secondarg=sys.argv[2]
-    driver.get("https://cabell.schoology.com") # school schoology disctrict login through microsoft azure
+    driver.get(schoolurl) # school schoology disctrict login through microsoft azure
 
 
     time.sleep(1)
@@ -44,7 +46,7 @@ def selenium_get_source(usernamekey, passwordkey):
     password.send_keys(passwordkey)
     time.sleep(.25)
     signin.click()
-    driver.get("https://cabell.schoology.com/courses")
+    driver.get("{}/courses".format(schoolurl))
     driver.implicitly_wait(10)
     courses = driver.find_elements_by_tag_name('a')
 
@@ -54,7 +56,7 @@ def selenium_get_source(usernamekey, passwordkey):
         coursehref.append(href) # adds href link to coursehref
 
     coursehref = [x for x in coursehref if x != None] # cleans None type out of list
-    coursehref = [i for i in coursehref if i.startswith('https://cabell.schoology.com/course/')] # list comprehension for elements that start with specific link
+    coursehref = [i for i in coursehref if i.startswith('{}/course/'.format(schoolurl))] # list comprehension for elements that start with specific link
     coursehref1 = []
 
     for i in coursehref:
