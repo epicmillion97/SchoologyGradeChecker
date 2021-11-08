@@ -4,16 +4,15 @@
 
 Python Schoology Script to retrieve student grades.
 
-## Necessary Libraries
+# Setup
+- Install required python libraries
+pip install -r requirements.txt
+#### Necessary Libraries
 - Beautiful Soup
 - Selenium
 - Pandas
 - Numpy
 - webdrivermanager
-
-# Setup
-- Install required python libraries
-pip install -r requirements.txt
 - Download Schoologygrades.py
 
 
