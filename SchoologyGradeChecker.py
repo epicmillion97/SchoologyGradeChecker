@@ -35,7 +35,7 @@ def selenium_get_source(usernamekey, passwordkey):
 
     #firstarg=sys.argv[1]
     #secondarg=sys.argv[2]
-    driver.get(schoolurl) # school schoology disctrict login through microsoft azure
+    driver.get(schoolurl) # school schoology district login through microsoft azure
 
 
     time.sleep(1)
