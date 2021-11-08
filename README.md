@@ -29,6 +29,7 @@ Change schoology url for your district in python code
 ## Using in python file
 ```python
 import SchoologyGradeChecker
+import pandas as pd
 SchoologyGradeChecker.main(username, password)
 df = pd.read_csv('./schoologygrades.csv')
 ```
