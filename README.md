@@ -1,6 +1,6 @@
 # SchoologyGradeChecker
 **Schoology Grade Scraper - Returns CSV of Grades**
-▶️Currently Supports Cabell Schoology◀️
+▶️Currently Supports Schoology with login through azure◀️
 
 Python Schoology Script to retrieve student grades.
 
