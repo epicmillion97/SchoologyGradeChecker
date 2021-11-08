@@ -42,4 +42,4 @@ df = pd.read_csv('./schoologygrades.csv')
 - Other Schoology logins
 - Auto ParentId gathering
 - ~~Support needed for submitted work span class grade-wrapper with drop~~
-
+- Add debug info
